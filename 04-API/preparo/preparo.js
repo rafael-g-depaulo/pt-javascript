@@ -15,7 +15,7 @@ const url = 'https://animelistcjr.herokuapp.com/descriptions'
 // axios.get(url, (err, res) => err ? console.log(err, "err") : console.log(res, "res"))
 const myParags = []
 axios.get(url+'/1', (err, res) => {
-  const paragraphs = res.data.paragraphs
+  const parag = res.data.paragraphs
   for (parag of paragraphs) {
     myParags.push(parag.text)
   }
