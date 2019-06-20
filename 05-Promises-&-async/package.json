@@ -1,0 +1,9 @@
+{
+  "name": "aula-5-pt",
+  "version": "1.0.0",
+  "description": "aula",
+  "main": "index.js",
+  "author": "Jesus",
+  "license": "MIT",
+  "dependencies": {}
+}
